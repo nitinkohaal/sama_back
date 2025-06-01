@@ -1,0 +1,553 @@
+
+
+
+@media screen and (max-width: 1200px) {
+    .about-para{
+        font-size: 16px;
+    }   
+    .about-item-img{
+        font-size: 25px;
+    }
+
+    .about-item-img-1{
+        height:40px;
+        width: 40px;
+    }
+
+    .section-about__img{
+        width: 70%;
+        
+    }
+
+    .about-image-2 {
+        top: -34px;
+        left: -130px;
+    }
+
+    .latest-item-img{
+        height: 150px;
+    }
+
+     .show-catory-1{
+    height: 400px;
+   }
+
+   .show-catory-2{
+    height: 400px;
+   }
+
+   .shop-catory-2-1{
+    height: 195px;
+   }
+
+   .shop-catory-img{
+    height: 80%;
+    right: 0;
+   }
+
+     .nav-items-list {
+    gap: 23px;
+}
+
+/* .accessories */
+
+
+
+.accessories-name{
+    font-size: 16px;
+}
+
+.accessories-desc{
+    font-size: 14px;
+}
+
+.accesories-section{
+    padding: 50px 0;
+}
+
+
+
+
+
+
+  
+}
+
+@media screen and (max-width: 1024px){
+    .hero{
+        height: fit-content;
+        /* padding-top: 10px; */
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+        
+   .show-catory-1{
+    height: 300px;
+   }
+
+   .show-catory-2{
+    height: fit-content;
+   }
+
+   .show-catory-2 .shop-catory-para{
+    font-size: 16px;
+   }
+
+   
+    
+   .shop-catory-2-1{
+    height: 300px;
+   }
+
+   .shop-catory-2-1 .shop-catory-title{
+    font-size: 30px;
+   }
+
+   .shop-catory-btn{
+        padding: 5px 12px;
+    font-size: 12px;
+   }
+
+   .shop-catory-img{
+    right: 10%;
+   }
+
+}
+
+
+
+
+
+@media screen  and (max-width: 768px) {
+    .nav-bar{
+        padding: 20px 0;
+    }
+
+    .search-container{
+        padding: 5px 12px;
+    }
+
+   .search-box{
+    width: 110px;
+   }
+
+   .search-box::placeholder{
+    font-size: 12px;
+   }
+    .about{
+        padding: 50px 0;
+    }
+    .section-about__img{
+        width: 100%;
+        height: 300px;
+        
+    }
+
+    .about-content-3{
+        height: 200px;
+    }
+
+    
+
+    .about-image-2 {
+       position: static;
+       border: 0;
+
+    }
+
+    .all-catogories{
+        font-size: 36px;
+    }
+
+
+    .latest-name{
+        font-size: 13px;
+    }
+
+    .latest-title{
+        font-size: 20px;
+        
+    
+    }
+
+    .latest-desc{
+        font-size: 12px;
+    }
+
+
+ 
+    .latest-item{
+        padding: 8px;
+    }
+
+    .latest-item-seen{
+       padding: 6px 10px;
+    font-size: 12px;
+     top: 12px;
+        right: 12px;
+    }
+
+       .latest-btn{
+        height: 35px;
+    width: 35px;
+        font-size: 18px;
+    }
+
+
+
+    .show-catory-2{
+        height: fit-content;
+    }
+
+    .shop-catory-img{
+    height: 80%;
+    right: 0;
+   }
+
+   .btn-cara{
+    padding: 0 5px;
+   }
+
+   /* .accessories */
+
+   .accessories-item{
+    padding: 10px;
+   }
+
+   .accessories-name{
+    font-size: 15px;
+    font-weight: 500;
+
+   }
+    .accessories-desc{
+     font-size: 12px;
+     font-weight: 500;
+    }
+
+    
+   .accessories-price-fake{
+    font-size: 12px;
+    font-weight: 400;
+   }
+   .accessories-price{
+    font-size: 14px;
+    font-weight: 400;
+   }
+
+   .accessories-btn-add{
+    padding: 6px 10px;
+    font-size: 12px;
+   }
+
+   .accessories-btn-see{
+    padding: 6px 10px;
+    font-size: 12px;
+
+   }
+
+   .accesories-section{
+    padding: 50px 0;
+   }
+
+   /* .faq-h2 */
+
+   .faq-h2{
+    font-size: 25px;
+   }
+    
+
+   .model-name-1 {
+    bottom: 5px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.hero-tag-item {
+    width: 150px;
+    height: 150px;
+}
+
+.hero-tag-title {
+    font-size: 30px;
+}
+
+    
+}
+
+
+
+
+
+
+
+/* phone  size  */
+
+
+@media(max-width: 550px){
+ 
+    .logo{
+        height: 30px;
+    }
+
+    .btn-secondary{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .nav-bar{
+        padding: 10px 0;
+    }
+
+    .hero-para{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .hero{
+        padding: 100px 0 25px 0;
+    }
+
+    .title{
+        font-size: 30px;
+        
+    }
+
+    .about-para{
+        font-size: 16px;
+    }
+
+    
+
+    .about{
+        padding: 50px 0;
+    }
+
+    .section-about__img{
+        height: 200px;
+    }
+    .about-subtitle{
+        font-size: 20px;
+    }
+
+    .hero-tag-main{
+        padding: 0;
+
+    }
+
+    .hero-tag-section{
+            padding: 25px 0;
+    }
+
+    
+ 
+        .hero-tag-item {
+        width: 100px;
+        height: 110px;
+    }
+     .model-name-1 {
+        font-size: 10px;
+        bottom: 0px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .scroll-btn{
+           width: 20px;
+        font-size: 18px;
+    }
+
+    .hero-tag-carousel {
+  padding: 0px 25px;
+}
+    .hero-tag-title{
+        font-size: 20px;
+    }
+
+    .All-btn{
+        padding: 15px 0;
+    }
+
+    .All-btn a{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 20px;
+
+    }
+
+    
+    /* fetaure  */
+
+    .feature-container{
+        padding: 50px 0;
+    }
+
+    .feature-title{
+        font-size: 26px;
+    }
+
+    .feature-para{
+        font-size: 14px;
+    }
+
+    .feature-item{
+        padding: 10px;
+    }
+
+    .feature-item-img{
+        height: 150px;
+    }
+
+    .scroll-up{
+        bottom:15px;
+        right: 15px;
+    }
+
+     .shop-catory-img{
+    height: 65%;
+    right: 0;
+    bottom: 10px;
+   }
+
+   .show-catory-1{
+    height: 250px;
+   }
+
+   .latest-container{
+    padding: 25px 0;
+   }
+
+   .show-catory{
+    padding:  25px 0;
+   }
+
+   .shop-catory-title {
+    font-size: 20px;
+    }
+
+    .shop-catory-2-1 .shop-catory-title {
+        font-size: 20px;
+    }
+
+    .shop-catory-para {
+    font-size: 14px;
+    }
+   
+        .show-catory-2 .shop-catory-para {
+        font-size: 14px;
+    }
+
+
+
+       .shop-catory-2-1 {
+        height: 250px;
+    }
+
+    .discount {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+    }
+
+    .latest-item-img{
+        height: 130px;
+    }
+
+    .latest-title-2-1-fake{
+        font-size: 10px;
+    }
+
+    .latest-title-2-1{
+        font-size: 12px;
+    }
+
+    .latest-btn{
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+
+    /* .accessories */
+
+    .accessories-title{
+        font-size: 20px;
+    }
+
+    .accessories-see-all{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+  
+    .accesories-section{
+        padding: 25px 0;
+    }
+
+    /* faq  */
+
+    .faq-question h3{
+        font-size: 16px;
+    }
+
+    .faq-answer p{
+        font-size: 14px;
+    }
+    
+    .faq-h2{
+        font-size: 20px;
+    }
+    .faq-container{
+        padding: 25px 0;
+    }
+
+    .footer-section{
+        padding: 25px 0;
+    }
+
+    .footer-title{
+        font-size: 16px;
+    }
+
+    .footer-line{
+        margin: 10px 0;
+    }
+
+    .social-link-item {
+    margin-right: 5px;
+    font-size: 16px;
+    }
+
+    .footer-para{
+        font-size: 12px;
+    }
+
+    .latest-item-seen{
+        padding: 3px 6px;
+        font-size: 12px;
+       
+    }
+
+    
+    }
+
+   @media(max-width: 360px){
+            .accessories-btn-add {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+   }
+ 
+@media screen and (min-width: 426px) and (max-width: 645px){
+    .accessories-name{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .accessories-desc{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
