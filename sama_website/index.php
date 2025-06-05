@@ -22,7 +22,7 @@
   <!-- navigation -->
 
   <nav id="nav" class="container-fluid navigation  px-2 px-sm-0   p-0    m-0 justify-content-center d-flex   ">
-    <div class="container  m-0 nav-bar d-flex justify-content-between align-items-center">
+    <div class="container  m-0 nav-bar d-flex justify-content-between align-items-center px-2 px-sm-0">
 
       <div class="logo  ">
 
@@ -196,15 +196,6 @@
       </div>
 
 
-
-      <!-- <p class="time-cs">
-        mon 10:00am-10:00pm to fri 10:00am-10:00pm
-      </p> -->
-
-
-
-
-
     </div>
 
 
@@ -279,13 +270,13 @@
 
           <div class="">
 
-            <h2 class="accessories-title  ">
+            <h2 class="accessories-title m-0 ">
               latest products
             </h2>
           </div>
 
           <div class="view-all  ">
-            <p class="d-flex justify-content-center align-items-center gap-1">
+            <p class=" m-0 d-flex justify-content-center align-items-center gap-1">
               view all <i class="fa-solid fa-chevron-right"></i>
             </p>
           </div>
@@ -315,10 +306,7 @@
 
             <div class="g-col-6    g-col-md-4 g-col-xl-3    latest-item ">
 
-              <button class="latest-item-seen">
-                <i class="fa-solid fa-eye"></i>
-              </button>
-
+          
               <button class="latest-item-seen">
                 <i class="fa-solid fa-eye"></i>
               </button>
@@ -354,26 +342,26 @@
 
                 <div class=" col-12 d-flex flex-column justify-content-center align-items-start gap-3">
                   <div class="latest-item-name d-flex flex-column justify-content-center align-items-start gap-1">
-                    <p class="latest-name">
+                    <h2 class="latest-name m-0">
 
                       <?php echo htmlspecialchars($accessory['name']); ?>
 
-                    </p>
-                    <p class="latest-desc">
+                    </h2>
+                    <p class="latest-desc m-0">
                       <?php echo htmlspecialchars($accessory['sub_heading']); ?>
                     </p>
                   </div>
                   <div class="latest-title-2 col-12    d-flex justify-content-between align-items-center">
                     <div class="latest-title-2-1 d-flex align-items-center gap-1 ">
 
-                      <p class="latest-title-2-1-fake">
+                      <p class="latest-title-2-1-fake m-0">
                         <i class="fa-solid fa-dollar-sign">
                         </i>
 
                         <?php echo htmlspecialchars($accessory['price']) + 100; ?>
                       </p>
 
-                      <p class="latest-title-2-1">
+                      <p class="latest-title-2-1 m-0">
                         <i class="fa-solid fa-dollar-sign"></i>
 
                         <?php echo htmlspecialchars($accessory['price']); ?>
@@ -424,7 +412,7 @@
 
   <section class="show-catory-section container-fluid d-flex justify-content-center   px-2 px-sm-0 p-0 m-0 ">
 
-    <div class="show-catory  container d-flex  m-0">
+    <div class="show-catory  container p-0 d-flex  m-0">
 
       <div class="grid col-12 gap-2  gap-lg-3 ">
 
@@ -773,7 +761,7 @@
                       data-image="../sama backend/<?php echo $images[0]['image_path']; ?>"
                     >
                       <i class="fa-solid fa-shopping-cart"></i>
-                      add to cart
+                      shopping
                     </button>
 
 
