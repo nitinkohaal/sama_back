@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// aceesory added if thses script is active 
+// show the accessories product when page reload
 
   // On page load, check if accessory was added
   document.addEventListener("DOMContentLoaded", function () {
@@ -166,6 +166,65 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+
+  // end show the accessories product when page reload
+
+
+
+  // edit the accessories product
+
+  
+  // const editAccessoriesBtns = document.querySelectorAll(".edit-accessory-btn");
+    
+  //   editAccessoriesBtns.forEach( btn => {
+
+   
+  //     });
+
+  //   });
+
+
+  function xyz(btn) {
+
+  console.log("Button clicked");
+
+  // Get data-* attributes from the clicked button
+  const id = btn.dataset.accessoryId;
+  const name = btn.dataset.accessoryName;
+  const modelId = btn.dataset.accessoryModelId;
+  const image = btn.dataset.accessoryImage;
+
+  // Fill modal form inputs
+  document.getElementById("accessory_id").value = id;
+  document.getElementById("accessory_name").value = name;
+  document.getElementById("accessory_bike_model").value = modelId;
+  document.getElementById("accessory_image").src = image;
+
+
+
+
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   // add gear show the gears product 
@@ -286,6 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
     // On page load, check if bike_model delete was 
   document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
@@ -315,3 +375,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
+
+
+

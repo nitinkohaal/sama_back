@@ -146,8 +146,8 @@
   .product-list-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 50%;
+    gap: 10px;
+    margin-bottom: 30px;
   }
 
   /* Add product form */
@@ -263,7 +263,13 @@
   #category-select {
     padding: 8px 15px;
     border-radius: 10px;
+    /* border: 1px solid #ccc; */
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
   }
+
 
 
 

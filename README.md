@@ -1,2 +1,2 @@
 # sama_backend
-this is the bakend of the sama web
+this is the backend of the sama web

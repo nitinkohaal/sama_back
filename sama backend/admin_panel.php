@@ -77,10 +77,11 @@ require 'db_connection.php';
 
       <section class="content-area" id="product-list-content" style="display:none;">
         <div class="product-list-header">
-          <h2>All Products</h2>
+          <h2>Products List :</h2>
 
 
           <select id="category-select">
+            <option value="all">All</option>
             <option value="accessories">Accessories</option>
             <option value="gears">Gears</option>
             <option value="apparel">Apparel</option>
@@ -94,13 +95,18 @@ require 'db_connection.php';
 
         <div id="product-all">
 
-
-
         </div>
 
 
 
       </section>
+
+
+
+
+
+
+
 
 
       <!-- add product section acess  -->
@@ -112,15 +118,17 @@ require 'db_connection.php';
 
           <input type="text" id="name" name="name" placeholder="Enter product name" required />
 
-          <!-- <select name="bike_model_id" required>
+           <select name="bike_model_id" required>
             <option value="">Select Model</option>
             <?php
+
             $stmt = $pdo->query("SELECT id, model_name FROM bike_models ORDER BY model_name ASC");
             while ($row = $stmt->fetch()) {
               echo "<option value='{$row['id']}'>{$row['model_name']}</option>";
             }
+
             ?>
-          </select> -->
+          </select> 
 
 
           <label for="description">sub heading</label>
@@ -140,6 +148,25 @@ require 'db_connection.php';
           <button type="submit">Add Product</button>
         </form>
       </section>
+
+            <!-- edit product section accessories -->
+
+            
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <!-- add product section gears -->
       <section class="content-area" id="add-product-gears" style="display:none;">
@@ -165,6 +192,18 @@ require 'db_connection.php';
           <button type="submit">Add Product</button>
         </form>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <!-- add bike model  -->
@@ -221,13 +260,10 @@ require 'db_connection.php';
           </div>
 
         </div>
-
-        
-
-
-
       </section>
 
+
+      <!-- edit bike modal  -->
       <div class="modal fade" id="editBikeModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
           <form id="editBikeForm" action="./update_bike_model.php" enctype="multipart/form-data" method="post">
